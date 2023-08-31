@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho {
+    text-transform: capitalize;
+    color: white;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-around;
+    background: #122ab2;
+}
+
+.detalhe {
+    text-transform: none;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #4784e0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu a {
+    text-decoration: none;
+}
