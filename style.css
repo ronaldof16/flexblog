@@ -73,3 +73,26 @@ h1 {
     padding: 2.5rem 0.75rem;
     line-height: 1;
 }
+
+.sobre {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 1.8rem;
+    padding: 2.5rem 0.75rem;
+    border-top: 2px solid #122ab2;
+}
+
+.texto-titulo {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.texto-paragrafo {
+    font-size: 1.25rem;
+}
+
+.img-sobre {
+    max-height: 100%;
+    align-self: flex-start;
+}
