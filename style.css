@@ -74,7 +74,7 @@ h1 {
     line-height: 1;
 }
 
-.sobre {
+#sobre {
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
@@ -86,13 +86,56 @@ h1 {
 .texto-titulo {
     font-size: 3rem;
     margin: 0px;
+    color: #222222;
 }
 
 .texto-paragrafo {
     font-size: 1.25rem;
+    color: #7c7c7c;
 }
 
-.img-sobre {
-    max-height: 100%;
+.img-sobre {  
     align-self: flex-start;
+}
+
+#produto {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-top: 2px solid #122ab2;
+    padding: 2.5rem 0.75rem;
+    gap: 2.5rem;
+}
+
+.produtos-img {
+    display: flex;
+    max-width: 100%;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+#purple {
+    background: #f7f7f7;
+    border-top: 8px solid #ae81ff;
+}
+
+.subtitulo {
+    font-size: 3rem;
+    padding: 1.25rem;
+    color: #a4a4a4;
+}
+
+#pink {
+    background: #f7f7f7;
+    border-top: 8px solid #f9265e;
+}
+
+#blue {
+    background: #f7f7f7;
+    border-top: 8px solid #66d9eb;
+}
+
+.img-item {
+    max-width: 100%;
 }
