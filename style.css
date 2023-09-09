@@ -4,12 +4,15 @@ body {
     font-family: 'Nunito Sans', sans-serif; 
 }
 
+/* Informações*/
+
 .informacoes-bg {
     background: #122ab2;
 }
 
 .informacoes {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: white;
     max-width: 1000px;
@@ -19,11 +22,11 @@ body {
 }
 
 .informacoes p {
-    margin:0px;
+    margin: 0px;
 }
 
 .informacoes a {
-    margin:0px;
+    margin: 0px;
     text-decoration: none;
     color: white;
 }
@@ -31,6 +34,8 @@ body {
 .detalhe {
     text-transform: none;
 }
+
+/* Cabeçalho */
 
 .cabecalho-bg {
     background: #4784e0;
@@ -52,6 +57,8 @@ body {
     font-size: 2rem;
 }
 
+/* Menu */
+
 .menu {
     list-style: none;
     display: flex;
@@ -65,6 +72,10 @@ body {
     text-transform: capitalize;
 }
 
+.menu a:hover {
+    color: #122ab2;
+}
+
 h1 {
     max-width: 1000px;
     margin: 0 auto;
@@ -74,6 +85,9 @@ h1 {
     line-height: 1;
     color: #222222;
 }
+
+
+/* Sobre */
 
 #sobre {
     display: flex;
@@ -98,6 +112,8 @@ h1 {
 .img-sobre {  
     align-self: flex-start;
 }
+
+/* Produtos */
 
 #produto {
     display: flex;
@@ -141,12 +157,14 @@ h1 {
     max-width: 100%;
 }
 
+/* Newsletter */
+
 #newsletter {
     background: #f7f7f7;
     padding: 3rem calc((100% - 1000px) / 2);
     display: flex;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 
 .newsletter-info {
@@ -199,6 +217,8 @@ h1 {
     font-size: 2rem;
 }
 
+/* Footer */
+
 footer {
     background: #2c70ff;
     padding: 4rem;
@@ -211,4 +231,36 @@ footer p {
     font-size: 2.25rem;
 }
 
+@media (max-width:800px) {
+    .img-sobre {
+        display: none;
+    }
 
+    footer {
+        padding: 2rem;
+    }
+
+    footer p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:550px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .produtos-img {
+        flex-direction: column;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:400px) {
+    .menu {
+        flex-direction: column;
+    }
+}
