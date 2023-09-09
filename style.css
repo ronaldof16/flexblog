@@ -199,4 +199,16 @@ h1 {
     font-size: 2rem;
 }
 
+footer {
+    background: #2c70ff;
+    padding: 4rem;
+}
+
+footer p {
+    color: #122ab2;
+    margin: 0px;
+    text-align: center;
+    font-size: 2.25rem;
+}
+
 
